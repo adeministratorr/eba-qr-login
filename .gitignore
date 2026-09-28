@@ -1,0 +1,46 @@
+# Byte-compiled / optimized / PVM cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+
+# Screen captures, live test QR codes, and images
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.webp
+
+# External projects, scratch and unpacked build directories
+etap-fleet-server/
+etap-fleet-server-windows.zip
+scratch/
+pkg_unpacked/
+eta-qr-login-eba-sso-v0.2.6.1/
+.git_original_backup/
+
+# Binary build artifacts and release archives (Delivered via GitHub Releases)
+*.deb
+*.tar.gz
+*.zip
+*.tar.xz
+*.tar
+
+# Private credentials, sessions & local configs (Never commit to git)
+private/
+**/private/
+*.conf
+launcher.conf
+secrets.conf
+*.key
+*.pem
+*.cert
+*.p12
+*.enc
+approved_session.json
+*.session
+*.token
+*.jwt
